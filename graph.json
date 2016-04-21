@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "name": "Prep Zone",
+      "group": 0,
+      "icon": "images/noun_36869_cc.svg"
+    },
+    {
+      "name": "Cooking Counter",
+      "group": 1,
+      "icon": "images/noun_105134_cc.svg"
+    },
+    {
+      "name": "Cleanup Counter",
+      "group": 2,
+      "icon": "images/noun_199036_cc.svg"
+    },
+    {
+      "name": "Trash and Recycling",
+      "group": 3,
+      "icon": "images/noun_37595_cc.svg"
+    },
+    {
+      "name": "Prep Sink",
+      "group": 4,
+      "icon": "images/noun_437989_cc.svg"
+    },
+    {
+      "name": "DW",
+      "group": 5,
+      "icon": "images/noun_161135_cc.svg"
+    },
+    {
+      "name": "Dish Storage",
+      "group": 6,
+      "icon": "images/noun_66440_cc.svg"
+    },
+    {
+      "name": "Eating Zone",
+      "group": 7,
+      "icon": "images/noun_28251_cc.svg"
+    },
+    {
+      "name": "Pantry",
+      "group": 8,
+      "icon": "images/noun_327624_cc.svg"
+    },
+    {
+      "name": "Refrigerator",
+      "group": 9,
+      "icon": "images/noun_412616_cc.svg"
+    },
+    {
+      "name": "Cleanup Sink",
+      "group": 10,
+      "icon": "images/noun_124031_cc.svg"
+    },
+    {
+      "name": "Microwave",
+      "group": 11,
+      "icon": "images/noun_412621_cc.svg"
+    },
+    {
+      "name": "Cooktop",
+      "group": 12,
+      "icon": "images/noun_338293_cc.svg"
+    },
+    {
+      "name": "Oven",
+      "group": 13,
+      "icon": "images/noun_412558_cc.svg"
+    },
+    {
+      "name": "Baking Storage",
+      "group": 14,
+      "icon": "images/noun_42344_cc.svg"
+    },
+    {
+      "name": "Spice Storage",
+      "group": 15,
+      "icon": "images/noun_78114_cc.svg"
+    },
+    {
+      "name": "Compost",
+      "group": 16,
+      "icon": "images/noun_17257_cc.svg"
+    }
+  ],
+  "links": [
+    {
+      "description": "Prep Zone...works best when it contains a water source and is next to or across an aisle no more than 48 wide or so from the Cooking Zone. Trash & recycle bins should also be in the Prep Zone.",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "source": 0,
+      "target": 4
+    },
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 0,
+      "target": 16
+    },
+    {
+      "description": "Cooking Zone...works best when next to/across from the Prep Zone (see Prep Zone). It's also nice to have a water source nearby as well as trash & recycling nearby.",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "description": "Cleanup Zone...works best when separated from the Prep & Cooking Zones. This can be on the opposite side of a one-sink kitchen from the Prep Zone or it could be in a completely separate location (the latter usually only works well if you have two sinks). Obviously, it also needs a water source and the DW.",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "source": 2,
+      "target": 5
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 16
+    },
+    {
+      "source": 2,
+      "target": 7
+    },
+    {
+      "description": "Dish Storage...works best when it's near the DW and near the serving/eating locations (island, DR, Nook, etc.)",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "source": 6,
+      "target": 7
+    },
+    {
+      "description": "Food Storage...works best when it's near the action. It's nice to be able to store staples, etc. at their point-of-use, so food storage can be spread throughout the kitchen. E.g., flour, sugar, etc. in a Baking Center, spices in the Prep or Cooking Zone, Cereal close to where breakfast is eaten, etc. If you have a dedicated pantry, it's nice to have the pantry near the point where the groceries enter the house as well.)",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "source": 14,
+      "target": 1
+    },
+    {
+      "source": 15,
+      "target": 1
+    },
+    {
+      "description": "Refrigerator...works best on the periphery of the kitchen so it's easily accessed by people working in the kitchen as well as outsiders looking for a snack without the outsiders getting underfoot of those working in the kitchen. It should also be near the Prep & Cooking Zones inside the kitchen and, if possible, near the main meal location(s) for ease of access during mealtime.",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 7
+    },
+    {
+      "description": "Microwave (MW)...this also works best on the periphery of the kitchen so it's easily accessed by people working in the kitchen as well as outsiders looking for a snack without the outsiders getting underfoot of those working in the kitchen.",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "source": 11,
+      "target": 0
+    },
+    {
+      "source": 8,
+      "target": 7
+    },
+    {
+      "description": "Oven and stove",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "source": 1,
+      "target": 13
+    },
+    {
+      "description": "Refrigerator => (Prep) Sink => Workspace => Cooktop/Range => Table OR (Cleanup) Sink => (Cleanup) Sink => Cabinets (dishes, pots/pans, etc.)",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 0,
+      "target": 12
+    },
+    {
+      "source": 12,
+      "target": 10
+    },
+    {
+      "source": 10,
+      "target": 6
+    }
+  ]
+}
