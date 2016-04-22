@@ -1,11 +1,15 @@
 D3 Force-directed-graph of kitchen work zones.
 
-References
+<img src="images/example-output.png" />
+
+## References
 
 * http://ths.gardenweb.com/discussions/2767031/kitchen-work-zones-what-are-they
 * http://bl.ocks.org/mbostock/950642  -- the example
 * https://github.com/mbostock/d3/wiki/Force-Layout
 * https://thenounproject.com/ -- icons source
+
+## Motivation
 
 Inspiration also came from "House O" in Rubeshibe, Japan, designed by
 Jun Igarashi. I original saw it in Domus 931 from Dec 2009. There 
