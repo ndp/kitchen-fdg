@@ -1,6 +1,6 @@
 D3 Force-directed-graph of kitchen work zones.
 
-<img src="images/example-output.png" />
+<img src="images/example-output.png" alt="Example output" width="411" />
 
 ## References
 
@@ -20,5 +20,5 @@ the connections and the proportions. You can see some photos [here](http://ideas
 -architects/) or [here](http://www.e-architect.co.uk/japan/house-o-hokkaido), although what is really more interesting is 
 [the floor plan at the bottom of this article](http://arqa.com/english-es-es/architecture-es/house-o-in-hokkaido-japan.html).
 
-<img src="http://arqa.broobe.netdna-cdn.com/wp-content/uploads/2010/01/plan4.jpg" />
+![House O Floor Plan](http://arqa.broobe.netdna-cdn.com/wp-content/uploads/2010/01/plan4.jpg)
 
